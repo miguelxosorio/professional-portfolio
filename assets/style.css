@@ -1,7 +1,7 @@
 /* * { */
-  /* margin: 0.5px;
+/* margin: 0.5px;
     padding: 0; */
-  /* box-sizing: border-box; */
+/* box-sizing: border-box; */
 /* } */
 
 :root {
@@ -19,67 +19,103 @@ header {
   background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
-  height: 10vh; /* viewport height */
+  height: 5vh; /* viewport height */
   padding: 3%;
+}
+
+.header-name {
+  margin-left: 1px;
+  /* padding: 35px; */
+}
+
+header nav {
+  margin-right: 70px;
+  margin-top: 10px;
 }
 
 header h1 {
   background-color: var(--primary-color);
   /* font-weight: bolder; */
-  padding: 1%;
+  padding: 5%;
   padding-left: 1.5%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-evenly;
-    padding-right:3%;
-    padding-left: 2%;
-    font-weight: bold;
+  padding-right: 3%;
+  padding-left: 2%;
+  font-weight: bold;
 }
 
-/* li{
-    padding-right:3%;
-    padding-left: 2%;
-    font-weight: bold;
-}*/
+header nav ul li {
+  color: var(--primary-color);
+}
 
 .hero {
-    background-image: linear-gradient(#92cccd, #445876);
-    height: 5vh;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:20%;
-    display:flex;
-    align-items: flex-end;
-    flex-direction:column-reverse;
-}
-.container{
-    margin: 2%;
-    padding:3%;
+  background-image: url(./images/wood.jpg);
+  /* height: 5vh; */
+  margin: 0;
+  padding: 0;
+  width: 101%;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
 }
 
-.row{
-    display: flex;
+.subtitle h3 {
+  margin-right: 20px;
+  background-color: var(--primary-color);
+}
+
+.container {
+  margin: 2%;
+  padding: 3%;
+}
+
+.row {
+  display: flex;
 }
 
 .leftnav {
-    border-right: 2px solid pink;
-    width:20%;
-    max-width:20%;
-    border-color: var(--secondary-color);
+  border-right: 2px solid pink;
+  width: 20%;
+  max-width: 20%;
+  border-color: var(--secondary-color);
 }
 
-.content{
-    width:70%;
-    color: var(--secondary-color);
-    display: flex;
-    flex-wrap: wrap;    
+.leftnav h2 {
+  font-size: 60px;
 }
 
+.content {
+  width: 70%;
+  color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.content p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-links {
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: var(--secondary-color);
+  margin: 25px 0 0 50px;
+}
 .projects {
-    width: 40%;
-    margin: 2%;
-    padding: 1%;
+  width: 30%;
+  margin: 2%;
+  /* padding: 1%; */
+  background-color: var(--primary-color);
+}
+
+.portfolioimg {
+  max-width: 100%;
 }
