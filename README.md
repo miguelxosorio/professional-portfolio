@@ -1,13 +1,15 @@
 # professional-portfolio
 
 # Contributor
-* Miguel Osorio
+Miguel Osorio
 
 # Brief Description
 A simple online portfolio for an aspiring Web Developer
 
 # Languages and Technologies used:
-HTML, CSS, Github
+* HTML
+* CSS
+* Github
 
 # Challenges
 Mostly the challenges I faced was the lack of understanding between flexbox and div properties. I wish to continue working on this even after submitting it to correct the proper spacing and styling. This is a learning curve for me and I will strive to be better from this experience.
